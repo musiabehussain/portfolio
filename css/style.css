@@ -611,6 +611,27 @@ text-align: center;
 
 
 
+.nd-last{
+    display: flex;
+    justify-content: center;
+}
+
+.second-last{
+     display: flex;
+    justify-content: center;
+
+}
+.second-last-cont-emai{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 9px;
+}
+
+
+
+
+
 
 
 /* last section trart from here */
