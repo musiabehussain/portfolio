@@ -1,11 +1,11 @@
-
-
 *{
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none;
+    padding: 0;
+    margin: 0;
 }
- 
+
+
+
+
 /* helper clases start here */
 body {
     padding: 0px;
@@ -33,8 +33,8 @@ p {
     padding: 100px 0px;
 }
 @media(max-width: 992px ){
-    .row {
-        flex-direction: column;
+.row {
+ flex-direction: column;
     }
 }
 /* Helper Classes end here*/
@@ -44,8 +44,11 @@ p {
 
 
 
-/* first section start from here */
 
+
+
+
+/* first section start from here */
 #about-section  img {
     width: 100%;
     overflow: hidden;
@@ -54,97 +57,113 @@ p {
     margin: 20px 0px;
 }   
 .sectinone{
-    /* height: 100vh; */
-    /* background-color:gray; */
-    color: cornsilk;
-background-image: url(../images/4.jpg);
-background-position: center;
-    padding-bottom: 50px;
-    line-height: 30px;
+background-position: 
+center;
+height: 100vh;
+padding-bottom: 50px;
+line-height: 37px;
 }
 .sec-1{
     display: flex;
     list-style: none;
     flex-direction: row;
     justify-content: end;
-     justify-content:center ;
+    justify-content:center ;
 }
 .harri{
-  flex-grow: 100px;
- flex-basis: 720px;
+ margin-right: 500px;
  font-size: 26px;
- color: seagreen;
+ color: black;
 }
-.box{
+.harri:hover{
+    color: whitesmoke;
+    cursor: pointer;
+    border-bottom: 2px solid blue;
+}
+.box11{
     
     flex-grow: 100px;
     flex-basis: 100px;
 } 
+.home1{
+    color: red;
+}
+.home1:hover{
+    color:black;
+}
+.box11:hover{
+    color: honeydew;
+    cursor: pointer;
+}
 .side-box{
     position: relative;
     top: 100px;
     height: 40px;
     width: 45px;
-    background-color: red;
-
 }
 .fan{
     position: relative;
     top: 65px;
-    color: purple;
     font-size: 30px;
 }
 .welcome{
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 180px;
+    padding-top: 290px;
 }
 .wel{
     position: relative;
     bottom: 90px;
+    font-size: 20px;
 }
-
-.btn-1{
+.btn-1 {
     padding: 4px 29px;
     border-radius: 25px;
     outline:none;
-    background-color:pink;
 }
 .btn-1:hover{
-    /* padding: 4px 29px; */
     border-radius: 25px;
     outline:none;
     background-color:transparent;
-    /* font-size: 20px; */
-    color: darkgreen;
+    color: white;
     transform: 2s escape;
+    border: 0.6px solid;   
 }
 @media(max-width: 992px ){
-    .sec-1{
-        display: flex;
-        flex-direction: column;
-        padding: 1px;
-        color: red;
-    }
-    .side-box{
-        background-color: violet;
-    }
-    .fan{
-        color: green;
-    }
-
-    .harri{
-  text-align: center;
-  flex-grow: 100px;
- flex-basis: 100px;
+.sectinone{
+background-color: grey;
+height: 100vh;
+padding-bottom: 50px;
+line-height: 37px;
 }
-.box{
-    text-align: center;
-    flex-grow: 10px;
-    flex-basis: 50px;
+.sec-1{
+ display: flex;
+ flex-direction: column;
+ padding: 1px;
+ color: red;
+ }
+.side-box{
+ background-color: violet;
 }
-
+.fan{
+ color: green;
+}
+.harri{
+ margin-left: 120px;
+width: 300px;
+}
+.box11{
+text-align: center;
+flex-grow: 10px;
+flex-basis: 50px;
+}
+.welcome{
+padding-top: 70px;
+}
+.wel{
+    font-size: 20px;
+}
 }
 /* first section  end here */
 
@@ -153,32 +172,58 @@ background-position: center;
 
 
 
-/* second section  start from here */
 
+
+
+
+
+
+/* second section  start from here */
 .icons{
+    display: flex;
+    flex-direction: row;
     margin: 30px 0px;
     font-size: 30px;
+    color: rgb(128, 128, 128);
+}
+.fac:hover {
+    color: blue;
+}
+.whats:hover {
+    color: green;
+}
+.you:hover {
+    color: red;
+}
+.ins:hover {
+  color: purple;
+}
+.twit:hover {
+    color: blue;
 }
 .icons i {
     margin-right: 30px;
 }
-
 @media(max-width: 992px ){
     .icons{
     text-align: center;
     padding-bottom: 20px;
-    }
+}
 .img-1{
     margin: 0 auto;
     padding: 0 auto;
 }
-.img-1{
-    margin-left: 0px;
-    width: 360px;
-}
-
 }
 /* second section  end here */
+
+
+
+
+
+
+
+
+
 
 
 
@@ -188,8 +233,12 @@ background-position: center;
 /* third section  start from here */
 .sec-3-icons{
     font-size: 34px;
-    color: rgba(64, 224, 208, 0.459);
+    color: red;
     padding: 10px 0px;
+}
+.sec-5-pera{
+    text-align: center;
+    padding-bottom: 50px;
 }
 .sec-3-card-icons{
     padding-top: 6px;
@@ -204,12 +253,11 @@ background-position: center;
     padding: 30px 9px;
     margin: 15px;
     background-color: whitesmoke;
-
 }
 .sec-line{
     width: 20%;
-    padding: 2px;
-    background-color: rgba(64, 224, 208, 0.459);
+    padding: 2px ;
+    background-color: red;
     position: relative;
     left: 128px;
 }
@@ -217,27 +265,32 @@ background-position: center;
     margin: 15px;
 }
 .section-three{
-    background-color: rgba(220, 20, 60, 0.075);
-    padding: 70px 0px;
+    background-color: rgba(128, 128, 128, 0.192);
+    padding: 50px 0px;
     margin: 0px;
 }
 @media(max-width: 992px ){
-    .sec-3-icons{
-          color: rgba(137, 43, 226, 0.315);
-    }
-
-.section-three{
+ .sec-3-icons{
+color: red;
+ }
+.section-three {
     background-color: rgba(0, 255, 255, 0.123);
+}
+.section-three .sec-5-pera {
+width: 400px;
+text-align: center;
+margin-left: 40px;
 }
 .box-service{
     border: 1px solid rgba(255, 0, 0, 0.144);
     text-align: center;
     background-color: rgba(80, 176, 255, 0.151);
-
 }
-
+.sec-line{
+    position: relative;
+    left: 140px;
 }
-
+}
 /* third section  end here */
 
 
@@ -245,52 +298,44 @@ background-position: center;
 
 
 
+
+
+
+
 /* fourth section  start frome here here */
+.lancer{
+    padding-bottom: 50px;
+}
 .freelancer{
-   padding-top: 100px;
+    text-align: center;
+}
+.free-btn {
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+.freelancer{
+    padding-top: 60px;
     align-self: center;
     display: flex;
     justify-content: center;
 }
-.btn-here-me{
-    padding-top: 30px;
-    display: flex;
-    justify-content: center;
-
-}
-.here-bttn{
-    cursor: pointer;
-    border-color: red;
-    background-color: red;
-    padding: 10px 19px;
-    margin-bottom: 70px;
-    text-transform: uppercase;
+.free-btn:hover{
+    background-color:rgba(128, 128, 128, 0.774);
     color: white;
-    border-radius: 3px;
-}
-.here-bttn:hover{
     cursor: pointer;
-    border-color: pink;
-    background-color: purple;
-    padding: 10px 39px;
-    border: 4px;
-    transition:  1s ease-in-out; 
-    font-size: 20px;
-    color: green;
-    border-radius: 25px;
-    outline-style: none;
 }
- @media(max-width: 992px ){
-.here-bttn{
-    background-color: lightslategray;
-}
-.here-bttn{
-    border-radius: 20px;
-    outline-style: none;
-}
-}
+/* fourth section  start frome here here */
 
-/* fourth section  end here here */
+
+
+
+
+
+
+
 
 
 
@@ -299,23 +344,27 @@ background-position: center;
 
 
 /* fifth section  start frome here here */
-.our-clits{
+.our-clitse{
     margin-top: 20px;
-     padding-top: 40px;
-    display: flex;
-    justify-content: center;
+    background-color: azure;
+    padding-top: 70px;
+    padding-bottom: 50px;
 }
-.sec-5-pera{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.sec-5-peraa{
+padding-top:  39px;
+text-align: center;
+padding-bottom:  39px;
 
+}
+.clints-perw{
+    text-align: center;
+    padding-bottom: 40px;
 }
 .sec-5-img{
     display: flex;
     justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .sec-5-dash{
     display: flex;
@@ -323,8 +372,26 @@ background-position: center;
     position: relative;
     bottom: 40px;
 }
+/* fifh section  end here here */
 
-/* fifth section  end here here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -336,9 +403,8 @@ background-position: center;
 /* sixth section  start frome here here */
 .section-6{
      padding-top: 50px;
-     padding-bottom: 60px;
-    margin-bottom: 60px;
-    background-color: rgba(240, 230, 140, 0.247);
+     padding-bottom: 50px;
+     background-color: rgba(128, 128, 128, 0.527);
 }
 .contaniner-work{
     display: flex;
@@ -358,7 +424,6 @@ background-position: center;
     flex-basis: 100px;
     padding-bottom: 70px;
 } 
-
 .all{
     background-color: red;
     padding: 5px 15px;
@@ -367,12 +432,6 @@ background-position: center;
     outline-style: none;
     color: lightgoldenrodyellow;
 }
-.all:hover{
-    background-color: transparent;
-    color: red;
-    padding:5px 40px;
-}
-
 .our-work{
     display: flex;
     justify-content: center;
@@ -383,7 +442,6 @@ background-color: rgba(205, 92, 92, 0.144);
  display: flex;
  flex-direction: column;
  justify-content: space-between;
-
 }
 .box-1{
 display: flex;
@@ -391,13 +449,10 @@ justify-content: center;
 flex-grow: 1px;
 flex-basis: 1px;
 color: black;
-
 } 
-
 .all{
     background-color: yellowgreen;
     padding: 7px 100px;
-
 }
 .work-service{
  justify-content: space-between;
@@ -409,10 +464,8 @@ justify-content: center;
  text-align: center; 
 }
  }
-
  .box{
     font-family: 'Poppins', sans-serif;
-    overflow: hidden;
     position: relative;
 }
 .box:before,
@@ -443,7 +496,7 @@ justify-content: center;
 .box .box-content{
     color: #fff;
     text-align: center;
-    width: 80%;
+    /* width: 80%; */
     opacity: 0;
     transform: translateX(-50%) translateY(-55%);
     position: absolute;
@@ -466,7 +519,7 @@ justify-content: center;
 .box .title:after{
     content: '';
     height: 1px;
-    width: 100px;
+    /* width: 100px; */
     margin: 5px auto 3px;
     border-bottom: 1px dashed #fff;
     display: block;
@@ -498,9 +551,9 @@ justify-content: center;
 .box .icon li:nth-child(2){ transition-delay: 0.7s; }
 .box:hover .icon li{ opacity: 1; }
 .box .icon li a{
-    color: #333;
-    background-color: #fff;
-    font-size: 13px;
+    color:white;
+    background-color: red;
+    font-size: 17px;
     text-align: center;
     line-height: 31px;
     height: 30px;
@@ -509,9 +562,17 @@ justify-content: center;
     display: block;
     transition: all 0.3s ease 0s;
 }
-.box .icon li a:hover{ box-shadow: 3px 3px rgba(255,255,255,0.5); }
+.hover-image{
+    width: 360px;
+}
+.box .icon li a:hover{ 
+box-shadow: 3px 3px rgba(255,255,255,0.5); }
 @media only screen and (max-width:990px){
-    .box{ margin: 0 0 px; }
+    .box{ margin: 0 0 px;
+    width: 100%; }
+    .hover-image{
+    width: 360px;
+}
 }
 /* sixth section  end here here */
 
@@ -521,167 +582,270 @@ justify-content: center;
 
 
 
-/* seventh section  start here here */
 
-.sec-sv-caard{
-    border: 1px solid red;
+
+
+
+
+
+
+
+
+
+
+/* seventh section  start here here */
+.section-of-blogs{
+      padding: 70px 0px; 
+background-color: rgba(128, 128, 128, 0.144); 
+      text-align: center;
 }
-.section-sev{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: rgba(95, 158, 160, 0.075);
+.blog{
+    margin-left: 60px;
+    border: 5px solid rgba(245, 222, 179, 0.473);
 }
-.sec-sv-caard p{
-padding: 10px;  
+.img-pera{
+    width: 300px;
+    background-color: rgba(245, 222, 179, 0.486);
+}
+.img-pera p{
+padding: 10px;
 text-align: center;
 }
-.sec-sv-caard-line{
-    padding-bottom: 30px;
+.img-pera-h3{
+    padding: 14px 10px;
+
 }
-@media(max-width:992px){
-.sec-sv-caard{
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(222, 184, 135, 0.24);
+.blogs-csrd-btn-read-more button{
+    background-color: red;
+    padding: 6px 14px;
+    border-color: red;
+    color: whitesmoke;
+    border-radius: 13px ;
+    outline: none;
+    text-align: left;
 }
-.box {
-    display: flex;
-    flex-direction: column;
+.blogs-csrd-btn-read-more{
+    padding: 4px;
+    position: relative;
+    left: 10px;
+    text-align: left;
+    cursor: pointer;
 } 
-
+.blogs-csrd-btn-read-more button:hover{
+cursor: pointer;
+background-color: rgba(245, 222, 179, 0.301);
+border: none;
+color: red;
+}
+ @media(max-width: 992px ){
+.img-pera-h3{
+    display: flex;
+    flex-direction: column;
+}
+.blog{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 20px;  
 }
 
-/* seventh section  end here here */
-
-
-
-
-
-
-
-/* eight section  start here here */
-
-.input-method{
-  display: flex;  
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-around;
-  padding-top: 20px;
-  /* padding-bottom: 20px; */
+.section-of-blogs{
+      padding: 70px 0px; 
+      background-color: #34495e; 
 }
-.das-tab{
-    width: 500px;
+.blog{
+    margin-left: 60px;
+    border: 3px solid white;
+
 }
-.big-dash{
+.img-pera{
+    width: 300px;
+    background-color: white;
+    justify-content: left;
+
+}
+.img-pera-h3{
+    padding: 14px 10px;
+    text-align: left;
+}
+.blogs-csrd-btn-read-more button{
+    background-color: red;
+    padding: 6px 14px;
+    border-color: red;
+    color: whitesmoke;
+    border-radius: 13px ;
+    outline: none;
+    cursor: pointer;
+}
+.blogs-csrd-btn-read-more{
+    padding: 4px;
+    position: relative;
+    left: 10px;
+    cursor: pointer;
+} 
+}
+/* seventh section  end here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* eight section  start from here */
+.contect-us{
+    justify-content: center; 
+    margin-left: 190px;
+    padding: 50px 0px;
+}
+.conta-icon{
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    padding-bottom: 20px;
+}
+.cont-us-cellP{
+    text-align: center;
+    justify-content: center;
+}
+.cont-us-pera{
     display: flex;
     justify-content: center;
-
+    text-align: center;
+    padding-top: 70px;
 }
-.mid-dash{
-    width: 1140px;
+ @media(max-width: 992px ){
+.contect-us{
+    justify-content: center; 
+    margin-left: 190px;
+    padding: 50px 0px;
+}
+.conta-icon{
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    padding: 30px 0px;
+}
+.cont-us-cellP{
+    text-align: center;
+    justify-content: center;
+}
+.cont-us-pera{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 70px;
+}
+}
+ /* eight section  end here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* nineth section  start here here */
+.input-method{
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.das-tab{
+    width: 570px;
 }
 .sec-8{
     background-color: rgba(47, 79, 79, 0.24);
     padding-top: 60px;
     padding-bottom: 50px;
 }
-.sec-8-submition-button{
-    display: flex;
-    justify-content: center;
-
+.long-dash{
+    padding: 20px 0px;
+    width: 1150px;
+    margin-left: 50px;
 }
-.sec-8-submition-button-btn{
-    padding: 5px 100px;
-    border-radius: 20px;
-    outline-style: none;
-    background-color: rgba(255, 20, 145, 0.267);
-    border-color: rgba(178, 34, 34, 0.192);
-    /* color: gold; */
-}
-.sec-8-submition-button-btn:hover{
-
-    background-color: fuchsia;
-    transition:  1s ease-in-out;
-    padding:0px 130px;
-    color: whitesmoke;
-    font-size: 17px;
-}
-/* eight section end ehre */
-
-
-
-
-.nd-last{
-    display: flex;
-    justify-content: center;
-}
-
-.second-last{
-     display: flex;
-    justify-content: center;
-
-}
-.second-last-cont-emai{
-    display: flex;
-    justify-content: center;
+.message-teb{
     text-align: center;
-    padding: 10px 9px;
 }
-
-
-
-
-
-
-
-/* last section trart from here */
+.dash-message{
+    width: 1150px;
 }
-.footer-mh{
-    float: left;
-    color: rgba(0, 0, 255, 0.336);
-    margin-left: 30px;
-    text-transform: lowercase;
+.submition-button button{
+ background-color: red;
+ position: relative;
+ left: 1110px;
+ top: 20px;
+ padding: 10px 20px;
+ border-radius: 20px;
+ outline: none;
+ font-size: 14px;
+  cursor: pointer;
 }
-.footer-mh:hover{
-    color: gold;
-    font-size: 20px;
-    transition:  3s ease-in-out;
+.submition-button button:hover{
+    background-color: gray;
+    color: red;
+    border-color: red;
+     cursor: pointer;
 }
-@media(max-width:992px){
-.footer-mh:hover{
-        color: violet;
-    }
+@media(max-width: 992px ){
 .input-method{
-    display: flex;
-    flex-direction: column;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  padding-top: 20px; 
 }
 .das-tab{
-    position: relative;
-    left: 14px;
-    display: flex;
-    width: 390px;
-    padding: 0;
-    margin: 0;
-    justify-content: center;
-    text-align: center;
-
-}
-.mid-dash{
-    position: relative;
-    right: 33px;
-     width: 390px;
-     display: flex;
-     justify-content: center;
-     text-align: center;  
+    width: 400px;
+    margin-top: 20px;
 }
 .sec-8{
-    background-color: rgb(128, 128, 128);
+    background-color: rgba(47, 79, 79, 0.24);
+    padding-top: 60px;
+    padding-bottom: 50px;
 }
-.option{
-    padding-bottom: 16px;
+.long-dash{
+    padding: 20px 0px;
+    width: 400px;
+    margin-left: 22px;
+}
+.message-teb{
     text-align: center;
 }
-.sec-8-submition-button-btn:hover{
-    background-color: #fff;
+.dash-message{
+    width: 420px;
 }
-/* last section  end here here */
+.submition-button button:hover{
+    background-color: gray;
+    color: red;
+    border-color: red;
+ cursor: pointer;
+}
+.submition-button button{
+background-color:red;
+ position: relative;
+ left: 300px;
+ top: 10px;
+ padding: 10px 20px;
+ font-size: 14px;
+ cursor: pointer;
+}
+}
+/* nineth section end here */
